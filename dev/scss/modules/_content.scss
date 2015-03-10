@@ -1,0 +1,224 @@
+.Content {
+
+}
+
+.bluebackground{
+	background: url("../img/headerbackground.jpg")repeat;
+}
+.columbackground {
+	background: url("../img/background_reapeat_2.png")repeat;
+}
+.homeLogo{
+	margin-top: 70px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	img{
+		width: 80%;
+	}
+}
+.homeVrouw{
+	img{
+	margin-bottom: -20px;
+	z-index: 9999;
+	position: relative;
+	}
+}
+
+
+.leftLinks{
+	//width: 14%;
+	margin-right: 0px !important;
+	width: 17%;
+	h2{
+		font-size: 1rem;
+		color: #ffffff;
+		margin-bottom: 0px;
+	}
+	li{
+		background-color: #ec6e08;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		color: #ffffff;
+		font-family: "Open Sans", "sans-serif";
+		font-weight: bold;
+		padding-left: 15px;
+	}
+	a
+	hr{
+		margin-top: 0px;
+	}
+}
+
+.leftImage{
+	border: 5px solid white;
+	border-radius: 15px;
+	margin-top: 40px;
+	height: 126px;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.mainFooterTekstWordPress{
+	padding-left: 20px;
+	margin-top: 13px;
+	margin-bottom: 20px;
+
+	h2{
+		font-size: 1.8rem;
+		color: #ffffff;
+		margin-bottom: 10px;
+	}
+	hr{
+		margin-top: 10px;
+	}
+	p{
+		color: #ffffff;
+	}
+
+}
+.colum1{
+	margin-top: 45px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: -5px;
+	border-top: 3px solid white;
+	border-bottom: 0px solid white;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px #888888;
+
+	article{
+		background-color: white;
+		margin-top: -18px;
+		border-radius: 8px;
+	}
+	p {
+		font-size: 10px;
+		color: black;
+	}
+
+}
+
+.colum2{
+	margin-top: 45px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-top: 3px solid white;
+	border-bottom: 0px solid white;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	article{
+		background-color: white;
+		margin-top: -18px;
+		border-radius: 8px;
+	}
+	p {
+		font-size: 10px;
+		color: black;
+	}
+}
+
+.colum3{
+	margin-top: 45px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-top: 3px solid white;
+	border-bottom: 0px solid white;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	article{
+		background-color: white;
+		margin-top: -18px;
+		margin-right: -3px;
+		border-radius: 8px;
+	}
+	p {
+		font-size: 10px;
+		color: black;
+	}
+}
+
+.sitemap{
+	margin-top: 45px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-top: 3px solid white;
+	border-bottom: 0px solid white;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	section{
+		background-color: #0b5e88;
+		border-radius: 8px;
+	}
+	ul {
+		margin-top: auto;
+		padding-left: 20px;
+	}
+	li {
+		color: white;
+		font-size: 9px;
+		margin-bottom: 5px;
+	}
+	h2 {
+		color: white;
+		font-size: 14px;
+		margin-bottom: 5px;
+		margin-top: 0px;
+	}
+	p {
+		font-size: 10px;
+	}
+}
+.mainFooterTekstWordPress {
+	p{
+		font-size: 10px;
+	}
+}
+
+.administratieRow {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.verzekeringenAuto{
+	iframe {
+		height: 425px;
+		width: 450px;
+	}
+}
+
+.verzekeringenOverig{
+	iframe {
+		height: 600px;
+		width: 525px;
+	}
+}
+
+span {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+h1, h2, li {
+	color: white;
+}
+
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
