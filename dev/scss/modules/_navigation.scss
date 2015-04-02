@@ -8,6 +8,10 @@
 .Navigation {
   @include clearfix;
   text-align: center;
+  
+  a:hover{
+    color: #9a8f8f;
+  }
 }
 
 // -------------------------------------
@@ -30,7 +34,8 @@
 }
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #ec6e08;
 }
 
 // -------------------------------------
@@ -47,7 +52,7 @@
 
 .Navigation-listItem {
   display: block;
-  margin: 0 rem(15px);
+  margin: 0 rem(12px);
   float: left;
   &:first-of-type {
     margin-left: 0;
@@ -68,4 +73,17 @@
 .Navigation-link--invertedBold {
   color: $c-white; 
   font-weight: bold;
+}
+
+.Navigation-list.Navigation-list--dropdown{
+  @include clearfix;
+  background-color: #004e75;
+  margin-top: 16px;
+  display: block;
+  padding-right: 15px;
+
+}
+.Navigation-list.Navigation-list--dropdown .Navigation-listItem{
+  width: 200px;
+  background-color: #004e75;
 }

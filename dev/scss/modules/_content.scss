@@ -1,12 +1,24 @@
 .Content {
-
+	p, li {
+		font-size: 13px !important;
+	}
 }
 
 .bluebackground{
-	background: url("../img/headerbackground.jpg")repeat;
+	background: url("../img/background_repeat.jpeg") repeat;
 }
+.patternbackground {
+	background: url("../img/element_achtergrond.png") repeat;
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+
 .columbackground {
-	background: url("../img/background_reapeat_2.png")repeat;
+	background: url("../img/background_reapeat_2.png") repeat;
+}
+
+.thumbnail {
+	padding: 10px;
 }
 .homeLogo{
 	margin-top: 70px;
@@ -20,7 +32,14 @@
 .homeVrouw{
 	img{
 	margin-bottom: -20px;
-	z-index: 9999;
+	z-index: 6666;
+	position: relative;
+	}
+}
+.homevrouw{
+	img{
+	margin-bottom: -40px;
+	z-index: 6666;
 	position: relative;
 	}
 }
@@ -40,11 +59,16 @@
 		margin-top: 5px;
 		margin-bottom: 5px;
 		color: #ffffff;
-		font-family: "Open Sans", "sans-serif";
 		font-weight: bold;
 		padding-left: 15px;
 	}
-	a
+	a {
+		color: white;
+		font-weight: bold;
+	}
+	li:hover{
+		background: #e5a169;
+	}
 	hr{
 		margin-top: 0px;
 	}
@@ -76,109 +100,74 @@
 	}
 
 }
-.colum1{
-	margin-top: 45px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-bottom: -5px;
-	border-top: 3px solid white;
-	border-bottom: 0px solid white;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
+
+.homepage-box {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 3px solid white;
 	border-radius: 8px;
 	box-shadow: 1px 1px 1px 1px #888888;
-
-	article{
-		background-color: white;
-		margin-top: -18px;
+	background-color: white;
+	article, section{
 		border-radius: 8px;
-	}
-	p {
-		font-size: 10px;
-		color: black;
+		padding: 10px;
 	}
 
-}
-
-.colum2{
-	margin-top: 45px;
-	margin-right: 10px;
-	margin-left: 10px;
-	border-top: 3px solid white;
-	border-bottom: 0px solid white;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	border-radius: 8px;
-	box-shadow: 1px 1px 1px 1px #888888;
-	article{
-		background-color: white;
-		margin-top: -18px;
-		border-radius: 8px;
-	}
-	p {
-		font-size: 10px;
-		color: black;
-	}
-}
-
-.colum3{
-	margin-top: 45px;
-	margin-right: 10px;
-	margin-left: 10px;
-	border-top: 3px solid white;
-	border-bottom: 0px solid white;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	border-radius: 8px;
-	box-shadow: 1px 1px 1px 1px #888888;
-	article{
-		background-color: white;
-		margin-top: -18px;
-		margin-right: -3px;
-		border-radius: 8px;
-	}
-	p {
-		font-size: 10px;
-		color: black;
-	}
-}
-
-.sitemap{
-	margin-top: 45px;
-	margin-right: 10px;
-	margin-left: 10px;
-	border-top: 3px solid white;
-	border-bottom: 0px solid white;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	border-radius: 8px;
-	box-shadow: 1px 1px 1px 1px #888888;
-	section{
-		background-color: #0b5e88;
-		border-radius: 8px;
-	}
 	ul {
 		margin-top: auto;
 		padding-left: 20px;
 	}
 	li {
-		color: white;
-		font-size: 9px;
+		font-size: 11px;
 		margin-bottom: 5px;
+		padding-bottom: 2px;
 	}
+
 	h2 {
-		color: white;
 		font-size: 14px;
 		margin-bottom: 5px;
 		margin-top: 0px;
+		padding-bottom: 10px;
 	}
+
 	p {
-		font-size: 10px;
+		font-size: 13px;
 	}
 }
+
+body.home .homepage-box,
+body.page-template-template-home-landingspagina-php .homepage-box {
+	height: none;
+}	
+.content-column {
+
+	p {
+		color: black;
+		padding: 10px;
+	}
+}
+.widgettitle {
+	color: white;
+}
+.menu-0 {
+	width: 150px;
+}
+.sitemap{
+	background-color: #0b5e88;
+	li,h2,p {
+		color: white;
+	}
+}
+
+
+.mainheader {
+	padding: 20px;
+}
+
+
 .mainFooterTekstWordPress {
 	p{
-		font-size: 10px;
+		font-size: 14px;
 	}
 }
 
@@ -201,18 +190,18 @@
 	}
 }
 
-span {
-	padding-left: 20px;
-	padding-right: 20px;
-	color: white;
-}
 
 p {
-	color: white;
+	color: black;
 }
 
 h1, h2, li {
-	color: white;
+	color: black;
+}
+
+#spanzondermargin {
+	font-weight: bold;
+	padding: 0px;
 }
 
 iframe:focus { 
@@ -221,4 +210,169 @@ iframe:focus {
 
 iframe[seamless] { 
     display: block;
+}
+
+////// Administratie pagina ///////
+
+.administratie-foto {
+	margin-bottom: 20px;
+	img {
+		border: 3px solid white;
+	}
+}
+.columbackground-administratie {
+	background: url("../img/background_reapeat_2.png");
+	padding: 20px;
+}
+
+///// Belasting /////
+
+.columbackground-belasting {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.belastingFoto {
+	img {
+		border: 3px solid white;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.belastingCheckFoto {
+	img {
+		border: 3px solid white;
+		margin-left: 70px;
+		margin-top: 20px;
+		margin-bottom: 1px;
+	}
+}
+
+///// verzekeringen /////
+
+.columbackground-verzekeringen {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.rekenService {
+	text-align: center;
+}
+
+.accordion {
+	font-weight: bold;
+}
+
+.accordion:hover{
+	cursor: pointer;
+}
+
+.ondersectie {
+	text-align: center;
+	margin-top: 50px;
+}
+
+///// Formulieren /////
+.columbackground-formulieren {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.formulierfoto {
+	border: 3px solid white;
+	height: 427px;
+}
+
+///// gegevens wijzigen //////
+
+.columbackground-gegevenswijzigen {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+///// schade melden /////
+
+.columbackground-schademelden {
+	background: url("../img/background_reapeat_2.png");
+}
+
+///// tarieven /////
+
+.columbackground-tarieven {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.tarievenImage {
+	margin-top: 15px;
+	border: 3px solid white;
+}
+
+////// nieuws, relaties en links //////
+
+.columbackground-nieuws {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.nieuwsfoto {
+	border: 3px solid white;
+}
+
+.link {
+	img {
+	border: 3px solid white;
+	margin-top: 25px;
+	}	
+}
+
+.rssfeed {
+	a {
+		font-weight: bold;
+	}
+}
+
+.footerfeed {
+	.homepage-box {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+}
+
+///// contact //////
+.columbackground-contact {
+	background: url("../img/background_reapeat_2.png");
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+@media all and (max-width: 900px) {
+	#nav_menu-2 {
+		display: none;
+	}
+} 
+
+@media all and (min-width: 900px) {
+	body.home .homepage-box, {
+		height: 465px;
+	}
+}
+
+@media all and (min-width: 900px) {
+body.page-template-template-home-landingspagina-php .homepage-box {
+		height: 465px;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.dodocolumn {
+		width: 100%;
+	}
 }

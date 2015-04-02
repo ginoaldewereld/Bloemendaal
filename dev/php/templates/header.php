@@ -20,8 +20,8 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon1.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/apple-touch-icon.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -33,6 +33,7 @@
     <!-- build:remove:compressed -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
@@ -40,42 +41,30 @@
 
   </head>
   <body <?php body_class(); ?> >
-    <div class="bovenbalk" style="background: white;">
     <div class="menu-line"></div>
-    <div class="u-gridContainer">
-        <div class="u-gridRow">
-            <div class="u-gridCol2 logo-back">
-                <a href="/home"><img class="Logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></a>
-            </div>
-            <div class="u-gridCol10">
-                <div class="Bot-Nav">
-                	<div class="u-gridContainer">
-                		<div class="Nav-toggle u-cf">
-                			<a class="Navigation-menuToggle" id="js-navCollapse">
-                				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-                					<use xlink:href="#icon-menu2"></use>
-                				</svg>
-                			</a>
-                		</div>
+        <div class="backgroundheader">
+            <div class="u-gridContainer">
+                <div class="u-gridRow header-balk">
+                    <div class="u-gridCol2 telefoonnummer-klein u-cf">
+                        <a href="tel:0182512248"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/headertelefoon.png"> <span>0182-512248</span></a>
+                    </div>    
+                    <div class="u-gridCol10">
+                        <div class="Bot-Nav">
+                        	<div class="u-gridContainer">
+                        		<div class="Nav-toggle u-cf">
+                        			<a class="Navigation-menuToggle" id="js-navCollapse">
+                        				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                        					<use xlink:href="#icon-menu2"></use>
+                        				</svg>
+                        			</a>
+                        		</div>
 
-                		<?php include 'includes/navigation.php'; ?>
-                		
-                		<div class="Mob-contact-ico">
-                			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0182-512248">
-                				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-                					<use xlink:href="#icon-phone"></use>
-                				</svg>
-                			</a>
-                		
-                                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@administratiekantoorbloemendaal.nl">
-                				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-                					<use xlink:href="#icon-envelope"></use>
-                				</svg>
-                			</a>
-                		</div><!-- header-contact -->
-                	</div>
-                 </div>
+                        		<?php include 'includes/navigation.php'; ?>
+                            <!-- header-contact -->
+                        	</div>
+                        </div>
+                     </div>
+                </div>
             </div>
         </div>
     </div>
-</div>

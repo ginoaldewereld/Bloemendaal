@@ -6,7 +6,7 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/headerbackground.jpg");
+  background-color: #ffffff;
   background-size: cover;
 }
 
@@ -75,4 +75,21 @@
 
 .Slider {
 	visibility: hidden;
+}
+
+.telefoonnummer-klein {
+  span {
+    color: black;
+    padding-left: 10px;
+  }
+}
+
+.header-balk {
+  margin-bottom: 15px;
+  padding-top: 25px;
+  background-color: #ffffff;
+}
+
+.backgroundheader {
+  background-color: white;
 }

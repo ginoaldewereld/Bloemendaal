@@ -1,26 +1,9 @@
-	<div class="Footer">
-		<div class="u-gridContainer">
-			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-			<div class="Footer-inner u-gridRow">
-				<?php dynamic_sidebar( 'footer-widgets' ); ?>
-			</div>
-			<?php endif; ?>
-		</div>
-	</div>
-
-
 	<div class="Socket">
 		<div class="u-gridContainer">
 			<!-- Copyright info -->
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
 					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
 			</p>
-								</div>
-					<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-					<div class="Footer-inner u-gridCol4">
-						<?php dynamic_sidebar( 'footer-widgets' ); ?>
-					</div>
-			<?php endif; ?>
 		</div>
 	</div>
 

@@ -1,27 +1,31 @@
 <?php get_header(); ?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	
+<div class="bluebackground" style="height: 60px;"></div>
+<div class="columbackground"><!-- Dit is de achtergrond -->
+	<div class="u-gridContainer">
+		<div class="u-gridRow  columbackground-administratie">
+			<div class="u-gridCol12 mainheader homepage-box">
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<article class="Content " id="post-<?php the_ID(); ?>">
+							<h1><?php the_title(); ?></h1>
+							<div>
+								<?php the_content(); ?>
+								<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+							</div>
+						</article>
 
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<h2><?php the_title(); ?></h2>
-			<div>
-				<?php the_content(); ?>
-				<?php wp_link_pages(array('before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
+					<?php 
+					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+						the_post_thumbnail();
+					} 
+					?>
+					<?php endwhile; endif; ?>
+					
 			</div>
-		</article>
-		
-		<nav>
-			<div><?php previous_post_link('&laquo; %link') ?></div>
-			<div><?php next_post_link('%link &raquo;') ?></div>
-		</nav>
+		</div>
+	</div>
+</div>
 
-		<?php comments_template(); ?>
-
-	<?php endwhile; else: ?>
-
-		<p><?php _('Sorry, no posts matched your criteria.'); ?></p>
-
-	<?php endif; ?>
 
 <?php get_footer(); ?>
