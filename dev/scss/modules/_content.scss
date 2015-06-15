@@ -5,7 +5,7 @@
 }
 
 .bluebackground{
-	background: url("../img/background_repeat.jpeg") repeat;
+	background: url("../img/headerbackground.jpg");
 }
 .patternbackground {
 	background: url("../img/element_achtergrond.png") repeat;
@@ -360,7 +360,7 @@ iframe[seamless] {
 } 
 
 @media all and (min-width: 900px) {
-	body.home .homepage-box, {
+	body.home .homepage-box , {
 		height: 465px;
 	}
 }

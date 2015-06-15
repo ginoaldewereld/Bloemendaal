@@ -38,7 +38,7 @@ Template Name: Contactpage
 								<p>Administratiekantoor-Bloemendaal</p>
 								<p>Dunantsingel 2</p>
 								<p>2806 JB Gouda</p>
-								<a href="mailto:info@administratiekantoorbloemendaal.nl"><p>Email: info@administratiekantoorbloemendaal.nl</p></a>
+								<a href="mailto:bloemendaal.gouda@planet.nl"><p>Email: bloemendaal.gouda@planet.nl</p></a>
 								<a href="tel:0182512248"><p>Tel: 0182-512248</p></a>
 							</div>
 	

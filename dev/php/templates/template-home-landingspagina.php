@@ -115,6 +115,51 @@ Template Name: Homepage-landingsplagina
 			</div>
 		</div>
 		<div class="u-gridRow">
+			<hr class="u-gridCol12">
+		</div>
+		<div class="u-gridRow">
+			<div class="u-gridCo5">
+				<div class="whitebox">
+				<h1>Boekhouder Gouda?</h1>
+				<article>
+					<b>Welkom bij Administratie Bloemendaal!</b>
+					<p>Een team met de wil on te winnen bereikt veel meer dan elf goede voetballers. Zie de resultaten van ORANJE.</p>
+					<ul>
+						<li>U levert goede gegevens</li>
+						<li>U stelt vragen,</li>
+						<li>U bent de hoofdpersoon</li>
+					</ul>
+					<p>Wij leveren de antwoorden en in overleg bepalen u en ik de uitkomst.</p>
+				</article>
+				</div>
+			</div>
+			<div class="u-gridCol7">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kantoorfoto.jpg">
+			</div>
+		</div>
+		<div class="u-gridRow">
+			<div class="u-gridCol12">
+				<div class="u-gridCol5">
+					<h5>Boekhouder Gouda</h5>
+					<p>Een verplicht nummer voor de belastingsdienst! Zo denken veel ondernemers over hun administratie. Jammer, want uit de boekhouding kan je veel informatie halen om je eigen onderneming beter te laten draaien en meer winst te behalen.</p>
+					<p>Vanuit het hart van uw administratie neemt u uw beslissingen over het te voeren beleid. Voorwaarde is dat de informatie actueel en up-to-date is. Perodiek overleg tussen u en uw boekhouder beidt u de mogelijkheid te vragen naar de kansen en de risicos van uw onderneming. Hiermee kunt u vragen beantwoorden over bijvoorbeeld het aannemen van nieuw personeel of over grote investeringen.</p>
+					<p>Voor veel bedrijven verzorgen wij al jarenlang de administratie. Regelmatig wordt verslag uitgebracht aan de ondernemer. De ondernemer kan zelf aangeven hoe vaak hij dit verslag wilt hebben en welke onderwerpen daarbij aan de orde komen. U geeft dus zelf aan hoe u uw beleidsinstrument, de boekhouding optimaal wilt gebruiken.</p>
+				</div>
+				<div class="u-gridCol7">
+					<h5>De beste oplossingen</h5>
+					<p>Oplossingen zijn er veel. De beste oplossing is afhankelijk van de omstandigheden. Wij reiken u meerdere keuzes aan. U krijgt een toelichting over de voor en nadelen van de verschillende keuzemogelijkheden. U beslist uiteindelijk welke keuze gemaakt wordt.</p>
+				</div>
+				<div class="u-gridCol7">
+					<h5>Persoonlijke aandacht</h5>
+					<p></p>
+				</div>
+				<div class="u-gridCol7">
+					<h5>Prima service</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="u-gridRow">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<article class="Content Content--home" id="post-<?php the_ID(); ?>">
 					<?php the_content(); ?>

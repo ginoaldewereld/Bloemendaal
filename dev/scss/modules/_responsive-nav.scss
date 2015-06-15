@@ -1,6 +1,6 @@
 // Responsive nav menu. Everything related to the navigation in TABLET/MOBILE mode should go here
 
-@media all and (min-width: 1040px) {
+@media all and (min-width: 960px) {
 
 } 
 
@@ -52,7 +52,7 @@
 //======================================================
 
 
-@media all and (max-width: 1040px) {
+@media all and (max-width: 960px) {
 	.Nav-tel {
 		display: none;
 	 }
